@@ -10,7 +10,30 @@
   .absolute{
   position: absolute;
   }
-  .branch{
-   top: 5cm;
-   left: 5cm;
+  .name{
+   top: 3.8cm;
+   left: 6.2cm;
   }
+  .age{
+    top:8.6cm;
+    left: 4.1cm;
+  }
+  .dob{
+    top: 12.4cm;
+    left: 7.2cm;
+  }
+  .nationality{
+    top: 16.2cm;
+    left: 6.6cm;
+  }
+  .address{
+    top: 19.9cm;
+    left: 6.4cm;
+    max-width: 6.5cm;
+    display: flex;
+    flex-wrap: wrap;
+  }
+//   .otherDetails{
+//     top: 32.3cm;
+//     left: 4.7cm;
+//   }

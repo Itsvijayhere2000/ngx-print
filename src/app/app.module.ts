@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgxPrintComponent } from './ngx-print/ngx-print.component';
 import { NgxPrintModule } from 'ngx-print';
+import { ImageStyleComponent } from './image-style/image-style.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NgxPrintComponent
+    NgxPrintComponent,
+    ImageStyleComponent
   ],
   imports: [
     BrowserModule,

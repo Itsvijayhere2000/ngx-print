@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./ngx-print.component.scss']
 })
 export class NgxPrintComponent {
-  printForm = {
-    name:'kamalesh'
+  form = {
+    name:'kamalesh',
+    age:'20',
+    dateOfBirth:'18-02-2000',
+    nationality:'Indian',
+    address:'4/804,14th manai street kuduvanchery',
+    // otherdetails:'----------'
   }
 }

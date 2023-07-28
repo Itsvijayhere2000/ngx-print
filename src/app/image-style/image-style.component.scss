@@ -1,0 +1,57 @@
+// .image-container {
+//     display: flex;
+//   }
+//   .image-wrapper {
+//     flex: 1;
+//     margin: 4px;
+//   }
+//   .image {
+//     width: 100%;
+//     height: auto;
+//     max-height: 200px; 
+//   }
+//   .single-image {
+//     justify-content: center;
+//   }
+//   .two-images {
+//     justify-content: space-between;
+//   }
+//   .three-images {
+//     justify-content: space-around;
+//   }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.image-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-group img {
+    width: 100%;
+    max-width: 300px; /* Change this value to control the maximum image width */
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Add media queries for different screen sizes */
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+    .image-group img {
+        max-width: 250px;
+    }
+}
+
+/* For screens up to 576px */
+@media (max-width: 576px) {
+    .image-group img {
+        max-width: 200px;
+    }
+}
